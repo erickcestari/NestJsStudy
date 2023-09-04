@@ -1,6 +1,14 @@
 {
   "extends": "@rocketseat/eslint-config/node",
   "rules": {
-    "no-useless-constructor": "off"
+    "no-useless-constructor": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "crlf",
+        "singleQuote": true,
+        "semi": false
+      }
+    ]
   }
 }
